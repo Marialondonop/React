@@ -1,1 +1,31 @@
-estilos para las vistas html y js
+
+/* Estilos globales de la aplicación */
+
+/* Estilos generales para el body o contenedor principal */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Personaliza los estilos de un componente Material-UI específico */
+/* Por ejemplo, si deseas cambiar el color de fondo de un botón */
+.MuiButton-root {
+  background-color: #007bff;
+  color: #fff;
+  /* Puedes agregar más estilos según tus necesidades */
+}
+
+/* Estilos para otros componentes Material-UI */
+/* .MuiPaper-root, .MuiTextField-root, etc. */
+
+/* Personaliza tus estilos para tus propios componentes React */
+/* .my-custom-component, .my-custom-input, etc. */
+
+/* Media queries para estilos responsivos */
+@media (max-width: 768px) {
+  /* Estilos específicos para pantallas más pequeñas */
+}
+
+
